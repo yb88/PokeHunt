@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		486CEE7175F4023825B56882 /* Pods_PokeHeatMap_For_Pokemon_Go.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B6F7C441CE91C0FE79095F /* Pods_PokeHeatMap_For_Pokemon_Go.framework */; };
+		5425CF291D400E3A00D3104E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5425CF281D400E3A00D3104E /* AppDelegate.swift */; };
+		5425CF2E1D400E3A00D3104E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5425CF2C1D400E3A00D3104E /* Main.storyboard */; };
+		5425CF301D400E3A00D3104E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5425CF2F1D400E3A00D3104E /* Assets.xcassets */; };
+		5425CF331D400E3A00D3104E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5425CF311D400E3A00D3104E /* LaunchScreen.storyboard */; };
+		5425CF3B1D401E8A00D3104E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5425CF3A1D401E8A00D3104E /* GoogleService-Info.plist */; };
+		5425CF431D40240B00D3104E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5425CF421D40240B00D3104E /* MapViewController.swift */; };
+		5425CF451D4024CB00D3104E /* PickPokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5425CF441D4024CB00D3104E /* PickPokemonViewController.swift */; };
+		5425CF4E1D40441500D3104E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5425CF4D1D40441500D3104E /* Foundation.framework */; };
+		5425CF501D40441D00D3104E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5425CF4F1D40441D00D3104E /* MapKit.framework */; };
+		5425CF521D40442400D3104E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5425CF511D40442400D3104E /* CoreLocation.framework */; };
+		542C20F21D4174EC008936C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542C20F11D4174EC008936C4 /* UIKit.framework */; };
+		548F9C171D432312001A63B2 /* geofire-objc in Resources */ = {isa = PBXBuildFile; fileRef = 548F9C161D432312001A63B2 /* geofire-objc */; };
+		54E29E181D43523E002053FB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E29E171D43523E002053FB /* LoginViewController.swift */; };
+		54E29E1A1D4352D9002053FB /* PokemonFoundListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E29E191D4352D9002053FB /* PokemonFoundListViewController.swift */; };
+		54E29E1C1D43538D002053FB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E29E1B1D43538D002053FB /* User.swift */; };
+		54E29E1E1D435398002053FB /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E29E1D1D435398002053FB /* UserController.swift */; };
+		54E29E201D4353B2002053FB /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E29E1F1D4353B2002053FB /* Friend.swift */; };
+		54E29E221D4353DF002053FB /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E29E211D4353DF002053FB /* ImageController.swift */; };
+		54E29E241D4353EF002053FB /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E29E231D4353EF002053FB /* FirebaseController.swift */; };
+		54E29E311D435E43002053FB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E29E2D1D435E43002053FB /* Bolts.framework */; };
+		54E29E321D435E43002053FB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E29E2E1D435E43002053FB /* FBSDKCoreKit.framework */; };
+		54E29E331D435E43002053FB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E29E2F1D435E43002053FB /* FBSDKLoginKit.framework */; };
+		54E29E341D435E43002053FB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E29E301D435E43002053FB /* FBSDKShareKit.framework */; };
+		54E29E361D446530002053FB /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E29E351D446530002053FB /* Pokemon.swift */; };
+		54E29E381D44653A002053FB /* PokemonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E29E371D44653A002053FB /* PokemonController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50B6F7C441CE91C0FE79095F /* Pods_PokeHeatMap_For_Pokemon_Go.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeHeatMap_For_Pokemon_Go.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5425CF251D400E3A00D3104E /* PokeHeatMap For Pokemon Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PokeHeatMap For Pokemon Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5425CF281D400E3A00D3104E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5425CF2D1D400E3A00D3104E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5425CF2F1D400E3A00D3104E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5425CF321D400E3A00D3104E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5425CF341D400E3A00D3104E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5425CF3A1D401E8A00D3104E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5425CF421D40240B00D3104E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5425CF441D4024CB00D3104E /* PickPokemonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickPokemonViewController.swift; sourceTree = "<group>"; };
+		5425CF4D1D40441500D3104E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5425CF4F1D40441D00D3104E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5425CF511D40442400D3104E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		542C20F11D4174EC008936C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		542C20F31D41871B008936C4 /* PokeHeatMap For Pokemon Go-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PokeHeatMap For Pokemon Go-Bridging-Header.h"; sourceTree = "<group>"; };
+		548F9C161D432312001A63B2 /* geofire-objc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "geofire-objc"; sourceTree = "<group>"; };
+		54E29E171D43523E002053FB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		54E29E191D4352D9002053FB /* PokemonFoundListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonFoundListViewController.swift; sourceTree = "<group>"; };
+		54E29E1B1D43538D002053FB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		54E29E1D1D435398002053FB /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		54E29E1F1D4353B2002053FB /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		54E29E211D4353DF002053FB /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		54E29E231D4353EF002053FB /* FirebaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
+		54E29E2D1D435E43002053FB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		54E29E2E1D435E43002053FB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		54E29E2F1D435E43002053FB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		54E29E301D435E43002053FB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		54E29E351D446530002053FB /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		54E29E371D44653A002053FB /* PokemonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonController.swift; sourceTree = "<group>"; };
+		9BF26866D894986F7DF2E9F2 /* Pods-PokeHeatMap For Pokemon Go.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeHeatMap For Pokemon Go.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokeHeatMap For Pokemon Go/Pods-PokeHeatMap For Pokemon Go.release.xcconfig"; sourceTree = "<group>"; };
+		FB2685108E59BB07A8FD60E5 /* Pods-PokeHeatMap For Pokemon Go.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeHeatMap For Pokemon Go.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokeHeatMap For Pokemon Go/Pods-PokeHeatMap For Pokemon Go.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5425CF221D400E3A00D3104E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542C20F21D4174EC008936C4 /* UIKit.framework in Frameworks */,
+				5425CF521D40442400D3104E /* CoreLocation.framework in Frameworks */,
+				5425CF501D40441D00D3104E /* MapKit.framework in Frameworks */,
+				54E29E311D435E43002053FB /* Bolts.framework in Frameworks */,
+				54E29E321D435E43002053FB /* FBSDKCoreKit.framework in Frameworks */,
+				54E29E341D435E43002053FB /* FBSDKShareKit.framework in Frameworks */,
+				5425CF4E1D40441500D3104E /* Foundation.framework in Frameworks */,
+				54E29E331D435E43002053FB /* FBSDKLoginKit.framework in Frameworks */,
+				486CEE7175F4023825B56882 /* Pods_PokeHeatMap_For_Pokemon_Go.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB7854CA17DBBC3585AE138 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB2685108E59BB07A8FD60E5 /* Pods-PokeHeatMap For Pokemon Go.debug.xcconfig */,
+				9BF26866D894986F7DF2E9F2 /* Pods-PokeHeatMap For Pokemon Go.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5425CF1C1D400E3A00D3104E = {
+			isa = PBXGroup;
+			children = (
+				54E29E2D1D435E43002053FB /* Bolts.framework */,
+				54E29E2E1D435E43002053FB /* FBSDKCoreKit.framework */,
+				54E29E2F1D435E43002053FB /* FBSDKLoginKit.framework */,
+				54E29E301D435E43002053FB /* FBSDKShareKit.framework */,
+				548F9C161D432312001A63B2 /* geofire-objc */,
+				5425CF3A1D401E8A00D3104E /* GoogleService-Info.plist */,
+				5425CF271D400E3A00D3104E /* PokeHeatMap For Pokemon Go */,
+				5425CF261D400E3A00D3104E /* Products */,
+				3BB7854CA17DBBC3585AE138 /* Pods */,
+				BAF2D5376A2AD39FC281AB32 /* Frameworks */,
+				542C20F31D41871B008936C4 /* PokeHeatMap For Pokemon Go-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		5425CF261D400E3A00D3104E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5425CF251D400E3A00D3104E /* PokeHeatMap For Pokemon Go.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5425CF271D400E3A00D3104E /* PokeHeatMap For Pokemon Go */ = {
+			isa = PBXGroup;
+			children = (
+				5425CF421D40240B00D3104E /* MapViewController.swift */,
+				5425CF281D400E3A00D3104E /* AppDelegate.swift */,
+				5425CF2C1D400E3A00D3104E /* Main.storyboard */,
+				54E29E1B1D43538D002053FB /* User.swift */,
+				54E29E351D446530002053FB /* Pokemon.swift */,
+				54E29E371D44653A002053FB /* PokemonController.swift */,
+				54E29E1D1D435398002053FB /* UserController.swift */,
+				54E29E1F1D4353B2002053FB /* Friend.swift */,
+				54E29E211D4353DF002053FB /* ImageController.swift */,
+				54E29E231D4353EF002053FB /* FirebaseController.swift */,
+				54E29E191D4352D9002053FB /* PokemonFoundListViewController.swift */,
+				54E29E171D43523E002053FB /* LoginViewController.swift */,
+				5425CF441D4024CB00D3104E /* PickPokemonViewController.swift */,
+				5425CF2F1D400E3A00D3104E /* Assets.xcassets */,
+				5425CF311D400E3A00D3104E /* LaunchScreen.storyboard */,
+				5425CF341D400E3A00D3104E /* Info.plist */,
+			);
+			path = "PokeHeatMap For Pokemon Go";
+			sourceTree = "<group>";
+		};
+		BAF2D5376A2AD39FC281AB32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				542C20F11D4174EC008936C4 /* UIKit.framework */,
+				5425CF511D40442400D3104E /* CoreLocation.framework */,
+				5425CF4F1D40441D00D3104E /* MapKit.framework */,
+				5425CF4D1D40441500D3104E /* Foundation.framework */,
+				50B6F7C441CE91C0FE79095F /* Pods_PokeHeatMap_For_Pokemon_Go.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5425CF241D400E3A00D3104E /* PokeHeatMap For Pokemon Go */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5425CF371D400E3A00D3104E /* Build configuration list for PBXNativeTarget "PokeHeatMap For Pokemon Go" */;
+			buildPhases = (
+				7AA1A6D934D83DBFEC4D87B0 /* [CP] Check Pods Manifest.lock */,
+				5425CF211D400E3A00D3104E /* Sources */,
+				5425CF221D400E3A00D3104E /* Frameworks */,
+				5425CF231D400E3A00D3104E /* Resources */,
+				D3E2667DF3FBE0F91DD88D5E /* [CP] Embed Pods Frameworks */,
+				2E674E8FC5A1E5CC6B98A8A1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PokeHeatMap For Pokemon Go";
+			productName = "PokeHeatMap For Pokemon Go";
+			productReference = 5425CF251D400E3A00D3104E /* PokeHeatMap For Pokemon Go.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5425CF1D1D400E3A00D3104E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Youcef;
+				TargetAttributes = {
+					5425CF241D400E3A00D3104E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5425CF201D400E3A00D3104E /* Build configuration list for PBXProject "PokeHeatMap For Pokemon Go" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5425CF1C1D400E3A00D3104E;
+			productRefGroup = 5425CF261D400E3A00D3104E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5425CF241D400E3A00D3104E /* PokeHeatMap For Pokemon Go */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5425CF231D400E3A00D3104E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5425CF331D400E3A00D3104E /* LaunchScreen.storyboard in Resources */,
+				548F9C171D432312001A63B2 /* geofire-objc in Resources */,
+				5425CF301D400E3A00D3104E /* Assets.xcassets in Resources */,
+				5425CF2E1D400E3A00D3104E /* Main.storyboard in Resources */,
+				5425CF3B1D401E8A00D3104E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E674E8FC5A1E5CC6B98A8A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokeHeatMap For Pokemon Go/Pods-PokeHeatMap For Pokemon Go-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AA1A6D934D83DBFEC4D87B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E2667DF3FBE0F91DD88D5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokeHeatMap For Pokemon Go/Pods-PokeHeatMap For Pokemon Go-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5425CF211D400E3A00D3104E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E29E241D4353EF002053FB /* FirebaseController.swift in Sources */,
+				54E29E181D43523E002053FB /* LoginViewController.swift in Sources */,
+				5425CF291D400E3A00D3104E /* AppDelegate.swift in Sources */,
+				54E29E1C1D43538D002053FB /* User.swift in Sources */,
+				54E29E1A1D4352D9002053FB /* PokemonFoundListViewController.swift in Sources */,
+				54E29E1E1D435398002053FB /* UserController.swift in Sources */,
+				54E29E361D446530002053FB /* Pokemon.swift in Sources */,
+				54E29E221D4353DF002053FB /* ImageController.swift in Sources */,
+				5425CF451D4024CB00D3104E /* PickPokemonViewController.swift in Sources */,
+				5425CF431D40240B00D3104E /* MapViewController.swift in Sources */,
+				54E29E201D4353B2002053FB /* Friend.swift in Sources */,
+				54E29E381D44653A002053FB /* PokemonController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5425CF2C1D400E3A00D3104E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5425CF2D1D400E3A00D3104E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5425CF311D400E3A00D3104E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5425CF321D400E3A00D3104E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5425CF351D400E3A00D3104E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5425CF361D400E3A00D3104E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5425CF381D400E3A00D3104E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB2685108E59BB07A8FD60E5 /* Pods-PokeHeatMap For Pokemon Go.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/geofire-objc-master",
+					"~/Documents/FacebookSDK",
+				);
+				INFOPLIST_FILE = "PokeHeatMap For Pokemon Go/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------------com.sunnydaysolution.PokeHeatMap-For-Pokemon-Go";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokeHeatMap For Pokemon Go-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5425CF391D400E3A00D3104E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF26866D894986F7DF2E9F2 /* Pods-PokeHeatMap For Pokemon Go.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/geofire-objc-master",
+					"~/Documents/FacebookSDK",
+				);
+				INFOPLIST_FILE = "PokeHeatMap For Pokemon Go/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------------com.sunnydaysolution.PokeHeatMap-For-Pokemon-Go";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokeHeatMap For Pokemon Go-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5425CF201D400E3A00D3104E /* Build configuration list for PBXProject "PokeHeatMap For Pokemon Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5425CF351D400E3A00D3104E /* Debug */,
+				5425CF361D400E3A00D3104E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5425CF371D400E3A00D3104E /* Build configuration list for PBXNativeTarget "PokeHeatMap For Pokemon Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5425CF381D400E3A00D3104E /* Debug */,
+				5425CF391D400E3A00D3104E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5425CF1D1D400E3A00D3104E /* Project object */;
+}

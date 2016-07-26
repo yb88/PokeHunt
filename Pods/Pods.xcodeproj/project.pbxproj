@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2166735050EC3CA9D824700B620B063E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44634998610F2D086949FCEE0406D66 /* CoreLocation.framework */; };
+		29731F92555225566D2388BB660A1AAB /* GeoFire+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 513FDCC708248470CDAC2381C5482784 /* GeoFire+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ABCD61FD7F427BD3806C92902AB042E /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F948C6A337ADE24CB01780662EA58B87 /* GFQuery.m */; };
+		3FC9C8BAAA1D0EE36E61A9BDCF340FDE /* GeoFire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7934D1BB399F8C89E34AF6F358E0DEF9 /* GeoFire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53196FAA545B6EE2BE9772AB059E5F2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D1159654E476B277E1D950E9C0CBD4 /* Foundation.framework */; };
+		54E29E151D432E0F002053FB /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BE4B32206FE5AA9C93A08671E6A2DE /* FirebaseAnalytics.framework */; };
+		54E29E161D432E27002053FB /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF0A910291DEE1ACD0161EBAF04C25D /* FirebaseDatabase.framework */; };
+		5A21FF462006E707E56C3B3971893BD8 /* GeoFire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D5A7D8A80161D04A038F5A4253962 /* GeoFire-dummy.m */; };
+		5B1DEC12EEB3CEAB8C2602E04007DD12 /* GFGeoHashQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1225AA64B3572B05CC7DB34401C8A863 /* GFGeoHashQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61C53D3B7693F300FDA6103C154A0ECD /* Pods-PokeHeatMap For Pokemon Go-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45795611B4A5807203844C2C3A8DC6AE /* Pods-PokeHeatMap For Pokemon Go-dummy.m */; };
+		7440C9B87F0A2B9ADA528240D4EC2B69 /* GFGeoHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 0434C3B68BEEF8EEAFBAB979C2EE0D42 /* GFGeoHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		746B890F1CECD5326ADD05028FC0FC5C /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B318FB4598C9640FEB7442A748CAC51 /* GFGeoHash.m */; };
+		75F28DB38113DCB2D9121B7163C875CA /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1350AB712F3F676D1F0486D18C4B1E /* GFGeoHashQuery.m */; };
+		7D6ED8A7FE3F654EEC63F134E383BBA7 /* GFBase32Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 576B4B1D09E1FB86EBE8CCE1FE33DFD1 /* GFBase32Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92DC109BB1B9753C73D2F5782EFCDF2B /* Pods-PokeHeatMap For Pokemon Go-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D45D3DE9B518EB03ACD914C3F3D06BAA /* Pods-PokeHeatMap For Pokemon Go-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8FEC707269B27CA0CD40A36B647186 /* GFCircleQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F496CD1B0B522B67BDE890AA6161A8C /* GFCircleQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4656AA37096D90C796730F3A274FA91 /* GeoFire.h in Headers */ = {isa = PBXBuildFile; fileRef = 183CBA8F577C4E838A5224098EF76C84 /* GeoFire.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0335D1F224EB7A3CBF79079BA17AF31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D1159654E476B277E1D950E9C0CBD4 /* Foundation.framework */; };
+		CA5D63EFDBD5B43AC4BE3CC2D3DF2186 /* GFQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1786F7747801863E9B53B4B5B0265284 /* GFQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E772F9F57312C064C87C25657F3C3A6A /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CD87A74CD09B35A141EB761F3C0BE /* GeoFire.m */; };
+		EC4A2955A3BAAF97E097272642BDE9B9 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 042EB1372FAD7C8914927776ADF8A226 /* GFBase32Utils.m */; };
+		FB96A79AA75E84306AE7C36318712D0D /* GFQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = F4748BC99057CF266D5C22A13F1F934A /* GFQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEB3E1C8892B8A55BDBECEA29187DCAE /* GFRegionQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = F045DDF282BA4BAA134B0FBB0C735ED5 /* GFRegionQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE69F2257731BBD585EFA3AF820721B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7908849B370564D3342427B24CCD92B7;
+			remoteInfo = GeoFire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042EB1372FAD7C8914927776ADF8A226 /* GFBase32Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFBase32Utils.m; path = GeoFire/Implementation/GFBase32Utils.m; sourceTree = "<group>"; };
+		0434C3B68BEEF8EEAFBAB979C2EE0D42 /* GFGeoHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFGeoHash.h; path = GeoFire/Implementation/GFGeoHash.h; sourceTree = "<group>"; };
+		1225AA64B3572B05CC7DB34401C8A863 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFGeoHashQuery.h; path = GeoFire/Implementation/GFGeoHashQuery.h; sourceTree = "<group>"; };
+		14B6B3BCF4D70552C8B8CD83F4F3F712 /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		1786F7747801863E9B53B4B5B0265284 /* GFQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GFQuery+Private.h"; path = "GeoFire/Implementation/GFQuery+Private.h"; sourceTree = "<group>"; };
+		183CBA8F577C4E838A5224098EF76C84 /* GeoFire.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoFire.h; path = GeoFire/API/GeoFire.h; sourceTree = "<group>"; };
+		192249FD8FE6DCF324C41CAC4CB01FF7 /* Pods_PokeHeatMap_For_Pokemon_Go.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeHeatMap_For_Pokemon_Go.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7AA930A3856873DD5D2D5C649D0F83 /* GeoFire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GeoFire.xcconfig; sourceTree = "<group>"; };
+		1CF0A910291DEE1ACD0161EBAF04C25D /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		22032933B8C55416011857CA3A5E3A30 /* Pods-PokeHeatMap For Pokemon Go-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokeHeatMap For Pokemon Go-acknowledgements.plist"; sourceTree = "<group>"; };
+		2311781A84649B9EA744811B400C15AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F496CD1B0B522B67BDE890AA6161A8C /* GFCircleQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFCircleQuery.h; path = GeoFire/API/GFCircleQuery.h; sourceTree = "<group>"; };
+		3461925ACD2E573C69F41F77B2653E9F /* GeoFire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoFire-prefix.pch"; sourceTree = "<group>"; };
+		399F58C15BD6317AA38A48EA140136FC /* GeoFire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GeoFire.modulemap; sourceTree = "<group>"; };
+		3D059991C4EE7DB16E45A96911F9FD41 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		3D9C52665B6DFA4905E31C53F41D2D67 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		45795611B4A5807203844C2C3A8DC6AE /* Pods-PokeHeatMap For Pokemon Go-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokeHeatMap For Pokemon Go-dummy.m"; sourceTree = "<group>"; };
+		481D45D81A6314BA3A266AAA4A0F33AB /* Pods-PokeHeatMap For Pokemon Go.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokeHeatMap For Pokemon Go.release.xcconfig"; sourceTree = "<group>"; };
+		49F5576EC0B2329047AD69155874C32C /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		513FDCC708248470CDAC2381C5482784 /* GeoFire+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GeoFire+Private.h"; path = "GeoFire/Implementation/GeoFire+Private.h"; sourceTree = "<group>"; };
+		538F230425F61EB6AE1E4873CC7ED2DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54742922896284A4C8C45B5F4086B3B6 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		575CD87A74CD09B35A141EB761F3C0BE /* GeoFire.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeoFire.m; path = GeoFire/Implementation/GeoFire.m; sourceTree = "<group>"; };
+		576B4B1D09E1FB86EBE8CCE1FE33DFD1 /* GFBase32Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFBase32Utils.h; path = GeoFire/Implementation/GFBase32Utils.h; sourceTree = "<group>"; };
+		7154E99CA00AA2C3C7B010B2C3F1583B /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		77D1159654E476B277E1D950E9C0CBD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7934D1BB399F8C89E34AF6F358E0DEF9 /* GeoFire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoFire-umbrella.h"; sourceTree = "<group>"; };
+		7B318FB4598C9640FEB7442A748CAC51 /* GFGeoHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFGeoHash.m; path = GeoFire/Implementation/GFGeoHash.m; sourceTree = "<group>"; };
+		8325AC7FABBFA10F2D23848C644E3F4F /* GeoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		873EAB856E22B9CEABD20E7AC8BE6B7C /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		8D15543AB1265E719F8D1AD02E5A0837 /* Pods-PokeHeatMap For Pokemon Go.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokeHeatMap For Pokemon Go.debug.xcconfig"; sourceTree = "<group>"; };
+		921CCF988B270967FB04A938EB7E1274 /* Pods-PokeHeatMap For Pokemon Go-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokeHeatMap For Pokemon Go-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C8D5A7D8A80161D04A038F5A4253962 /* GeoFire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GeoFire-dummy.m"; sourceTree = "<group>"; };
+		9CFCA5754E40E6755C59DE56B78D31B3 /* Pods-PokeHeatMap For Pokemon Go-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PokeHeatMap For Pokemon Go-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0DF0DBA1AEA62247DB24A0BB845B21A /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseRemoteConfig.framework; path = Frameworks/FirebaseRemoteConfig.framework; sourceTree = "<group>"; };
+		A44634998610F2D086949FCEE0406D66 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		BA839EC977A18DF5F7FE8C9E610C9F52 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		C59876947F0211709FF5ED4983478BBC /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		CD1350AB712F3F676D1F0486D18C4B1E /* GFGeoHashQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFGeoHashQuery.m; path = GeoFire/Implementation/GFGeoHashQuery.m; sourceTree = "<group>"; };
+		D45D3DE9B518EB03ACD914C3F3D06BAA /* Pods-PokeHeatMap For Pokemon Go-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokeHeatMap For Pokemon Go-umbrella.h"; sourceTree = "<group>"; };
+		EB37E2175E19A497A2B223CAD8AC9B41 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		EEEF1C08D82817D02439DE727878F574 /* Pods-PokeHeatMap For Pokemon Go.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PokeHeatMap For Pokemon Go.modulemap"; sourceTree = "<group>"; };
+		F045DDF282BA4BAA134B0FBB0C735ED5 /* GFRegionQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFRegionQuery.h; path = GeoFire/API/GFRegionQuery.h; sourceTree = "<group>"; };
+		F3388402B7E3B039360F758BD4AC2BD7 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		F4748BC99057CF266D5C22A13F1F934A /* GFQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFQuery.h; path = GeoFire/API/GFQuery.h; sourceTree = "<group>"; };
+		F67E2A50960C8E64369B28C80DA6C54A /* Pods-PokeHeatMap For Pokemon Go-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokeHeatMap For Pokemon Go-resources.sh"; sourceTree = "<group>"; };
+		F6BE4B32206FE5AA9C93A08671E6A2DE /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		F810C698AB4242F5DA25745F5096DDFB /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = Frameworks/GoogleIPhoneUtilities.framework; sourceTree = "<group>"; };
+		F948C6A337ADE24CB01780662EA58B87 /* GFQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFQuery.m; path = GeoFire/Implementation/GFQuery.m; sourceTree = "<group>"; };
+		FAEB7E3CD2441A657DEF699364792461 /* FirebaseCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCrash.framework; path = Frameworks/FirebaseCrash.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C3A74E26847CE2D0A1332DA924AD3C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E29E161D432E27002053FB /* FirebaseDatabase.framework in Frameworks */,
+				2166735050EC3CA9D824700B620B063E /* CoreLocation.framework in Frameworks */,
+				C0335D1F224EB7A3CBF79079BA17AF31 /* Foundation.framework in Frameworks */,
+				54E29E151D432E0F002053FB /* FirebaseAnalytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9D31F5EF699BE5338DC77E949B1222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53196FAA545B6EE2BE9772AB059E5F2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A412B94C913379A38F220FD3B7460B4 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				E5F91145E8E6D784124AF3C0ADC784D6 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		14D3A277201DC2DC770BD05E7CC269B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0A910291DEE1ACD0161EBAF04C25D /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B2B73410C03940B9301FA5F01993F1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE4B32206FE5AA9C93A08671E6A2DE /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		266F7F5A0EE2A24086C5CE9585931116 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				6BD1CAC55B06B3CA263FA8461D576AF9 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		28FA7D59D80D57DC97AB6C2DE09E556F /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				87F7DEF41434D49970070AE47D8563A4 /* Frameworks */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		37A51D0C6E2B2751B2B60CEF4BC383BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB37E2175E19A497A2B223CAD8AC9B41 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				452C4D672353D86A5CE7A15C4A984B2D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		452C4D672353D86A5CE7A15C4A984B2D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A44634998610F2D086949FCEE0406D66 /* CoreLocation.framework */,
+				77D1159654E476B277E1D950E9C0CBD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		46FD8E40E71BC56A6499853388D147DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3388402B7E3B039360F758BD4AC2BD7 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5416D88C43A8931DA9F3A9680C22982C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EAE4405021F3CDBE429EFEF2CE0B003 /* Pods-PokeHeatMap For Pokemon Go */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		66EA4A0E8A51D6D6D01AA395D3F62AE6 /* FirebaseCrash */ = {
+			isa = PBXGroup;
+			children = (
+				6ADB44E4A087C95AD7FF3E626CB9CC47 /* Frameworks */,
+			);
+			path = FirebaseCrash;
+			sourceTree = "<group>";
+		};
+		6ADB44E4A087C95AD7FF3E626CB9CC47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAEB7E3CD2441A657DEF699364792461 /* FirebaseCrash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BD1CAC55B06B3CA263FA8461D576AF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54742922896284A4C8C45B5F4086B3B6 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EAE4405021F3CDBE429EFEF2CE0B003 /* Pods-PokeHeatMap For Pokemon Go */ = {
+			isa = PBXGroup;
+			children = (
+				2311781A84649B9EA744811B400C15AE /* Info.plist */,
+				EEEF1C08D82817D02439DE727878F574 /* Pods-PokeHeatMap For Pokemon Go.modulemap */,
+				9CFCA5754E40E6755C59DE56B78D31B3 /* Pods-PokeHeatMap For Pokemon Go-acknowledgements.markdown */,
+				22032933B8C55416011857CA3A5E3A30 /* Pods-PokeHeatMap For Pokemon Go-acknowledgements.plist */,
+				45795611B4A5807203844C2C3A8DC6AE /* Pods-PokeHeatMap For Pokemon Go-dummy.m */,
+				921CCF988B270967FB04A938EB7E1274 /* Pods-PokeHeatMap For Pokemon Go-frameworks.sh */,
+				F67E2A50960C8E64369B28C80DA6C54A /* Pods-PokeHeatMap For Pokemon Go-resources.sh */,
+				D45D3DE9B518EB03ACD914C3F3D06BAA /* Pods-PokeHeatMap For Pokemon Go-umbrella.h */,
+				8D15543AB1265E719F8D1AD02E5A0837 /* Pods-PokeHeatMap For Pokemon Go.debug.xcconfig */,
+				481D45D81A6314BA3A266AAA4A0F33AB /* Pods-PokeHeatMap For Pokemon Go.release.xcconfig */,
+			);
+			name = "Pods-PokeHeatMap For Pokemon Go";
+			path = "Target Support Files/Pods-PokeHeatMap For Pokemon Go";
+			sourceTree = "<group>";
+		};
+		71D3025AA0D552686E7557BEB7055875 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				399F58C15BD6317AA38A48EA140136FC /* GeoFire.modulemap */,
+				1A7AA930A3856873DD5D2D5C649D0F83 /* GeoFire.xcconfig */,
+				9C8D5A7D8A80161D04A038F5A4253962 /* GeoFire-dummy.m */,
+				3461925ACD2E573C69F41F77B2653E9F /* GeoFire-prefix.pch */,
+				7934D1BB399F8C89E34AF6F358E0DEF9 /* GeoFire-umbrella.h */,
+				538F230425F61EB6AE1E4873CC7ED2DD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GeoFire";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				98DE40494282239FFFC4F7B55CF39D3C /* Pods */,
+				B25E25E44496283ABEDEFC9F544193E1 /* Products */,
+				5416D88C43A8931DA9F3A9680C22982C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87F7DEF41434D49970070AE47D8563A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7154E99CA00AA2C3C7B010B2C3F1583B /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A7947CEECE4650A126350BA71998BA1 /* GoogleIPhoneUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8EF37597830900F5BCB61DEEE0A5E728 /* Frameworks */,
+			);
+			path = GoogleIPhoneUtilities;
+			sourceTree = "<group>";
+		};
+		8EF37597830900F5BCB61DEEE0A5E728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F810C698AB4242F5DA25745F5096DDFB /* GoogleIPhoneUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98DE40494282239FFFC4F7B55CF39D3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A412B94C913379A38F220FD3B7460B4 /* Firebase */,
+				D1CCE49AF538DA3CA65EBF9D51283F3F /* FirebaseAnalytics */,
+				FCF782DE5CCBA7D87DECD75ACFE6B58B /* FirebaseAuth */,
+				66EA4A0E8A51D6D6D01AA395D3F62AE6 /* FirebaseCrash */,
+				BEF5FFBDFCFB01D08E5C3C6808F54B8B /* FirebaseDatabase */,
+				FE294ED87340884212B749705089C056 /* FirebaseInstanceID */,
+				E4A872E706B139D6F59F3A2EA41EC65E /* FirebaseRemoteConfig */,
+				28FA7D59D80D57DC97AB6C2DE09E556F /* FirebaseStorage */,
+				DECD27EE140005E6A6FBC1DC28127E95 /* GeoFire */,
+				EF1244CED7D88C6A967B3E1336FC870C /* Google-Mobile-Ads-SDK */,
+				F977A5B0E2136AC45C4D606A5562E9F4 /* GoogleInterchangeUtilities */,
+				8A7947CEECE4650A126350BA71998BA1 /* GoogleIPhoneUtilities */,
+				ED5514320C2229C693BD6C9CEEB69D23 /* GoogleNetworkingUtilities */,
+				E2FF6997095BEA8149217A44B015E53A /* GoogleParsingUtilities */,
+				F2BDB5E8FA445551117F4BA91A249C03 /* GoogleSymbolUtilities */,
+				266F7F5A0EE2A24086C5CE9585931116 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6CB26486C085D8274C85FE52ED8C374 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49F5576EC0B2329047AD69155874C32C /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B25E25E44496283ABEDEFC9F544193E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8325AC7FABBFA10F2D23848C644E3F4F /* GeoFire.framework */,
+				192249FD8FE6DCF324C41CAC4CB01FF7 /* Pods_PokeHeatMap_For_Pokemon_Go.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE7FCF9EA2643E8426C5D258BE80263F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14B6B3BCF4D70552C8B8CD83F4F3F712 /* GoogleParsingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEF5FFBDFCFB01D08E5C3C6808F54B8B /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				14D3A277201DC2DC770BD05E7CC269B8 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		C88FBAE1FCF4348158E4C901AF4BF5D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA839EC977A18DF5F7FE8C9E610C9F52 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1CCE49AF538DA3CA65EBF9D51283F3F /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				1B2B73410C03940B9301FA5F01993F1D /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		DD84B99361E3B569CA69A04DAEE6E0B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0DF0DBA1AEA62247DB24A0BB845B21A /* FirebaseRemoteConfig.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DECD27EE140005E6A6FBC1DC28127E95 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				183CBA8F577C4E838A5224098EF76C84 /* GeoFire.h */,
+				575CD87A74CD09B35A141EB761F3C0BE /* GeoFire.m */,
+				513FDCC708248470CDAC2381C5482784 /* GeoFire+Private.h */,
+				576B4B1D09E1FB86EBE8CCE1FE33DFD1 /* GFBase32Utils.h */,
+				042EB1372FAD7C8914927776ADF8A226 /* GFBase32Utils.m */,
+				2F496CD1B0B522B67BDE890AA6161A8C /* GFCircleQuery.h */,
+				0434C3B68BEEF8EEAFBAB979C2EE0D42 /* GFGeoHash.h */,
+				7B318FB4598C9640FEB7442A748CAC51 /* GFGeoHash.m */,
+				1225AA64B3572B05CC7DB34401C8A863 /* GFGeoHashQuery.h */,
+				CD1350AB712F3F676D1F0486D18C4B1E /* GFGeoHashQuery.m */,
+				F4748BC99057CF266D5C22A13F1F934A /* GFQuery.h */,
+				F948C6A337ADE24CB01780662EA58B87 /* GFQuery.m */,
+				1786F7747801863E9B53B4B5B0265284 /* GFQuery+Private.h */,
+				F045DDF282BA4BAA134B0FBB0C735ED5 /* GFRegionQuery.h */,
+				71D3025AA0D552686E7557BEB7055875 /* Support Files */,
+			);
+			path = GeoFire;
+			sourceTree = "<group>";
+		};
+		E2FF6997095BEA8149217A44B015E53A /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				BE7FCF9EA2643E8426C5D258BE80263F /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		E4A872E706B139D6F59F3A2EA41EC65E /* FirebaseRemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				DD84B99361E3B569CA69A04DAEE6E0B2 /* Frameworks */,
+			);
+			path = FirebaseRemoteConfig;
+			sourceTree = "<group>";
+		};
+		E5F91145E8E6D784124AF3C0ADC784D6 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				C59876947F0211709FF5ED4983478BBC /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		EA5BD1693118DD0BE260D2DAD4D32C5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D9C52665B6DFA4905E31C53F41D2D67 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAFFAAA3C2F44F4B6A7B70E5FD36BE30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D059991C4EE7DB16E45A96911F9FD41 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED5514320C2229C693BD6C9CEEB69D23 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				37A51D0C6E2B2751B2B60CEF4BC383BE /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		EF1244CED7D88C6A967B3E1336FC870C /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				EAFFAAA3C2F44F4B6A7B70E5FD36BE30 /* Frameworks */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		F2BDB5E8FA445551117F4BA91A249C03 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				46FD8E40E71BC56A6499853388D147DB /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		F977A5B0E2136AC45C4D606A5562E9F4 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C88FBAE1FCF4348158E4C901AF4BF5D6 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		FCF782DE5CCBA7D87DECD75ACFE6B58B /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				A6CB26486C085D8274C85FE52ED8C374 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		FE294ED87340884212B749705089C056 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				873EAB856E22B9CEABD20E7AC8BE6B7C /* FIRInstanceID.h */,
+				EA5BD1693118DD0BE260D2DAD4D32C5D /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2521E70A0AFE42E3D8B3CB214DDAA388 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DC109BB1B9753C73D2F5782EFCDF2B /* Pods-PokeHeatMap For Pokemon Go-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94330F83ED3F2178C3E743C52713B2A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29731F92555225566D2388BB660A1AAB /* GeoFire+Private.h in Headers */,
+				3FC9C8BAAA1D0EE36E61A9BDCF340FDE /* GeoFire-umbrella.h in Headers */,
+				A4656AA37096D90C796730F3A274FA91 /* GeoFire.h in Headers */,
+				7D6ED8A7FE3F654EEC63F134E383BBA7 /* GFBase32Utils.h in Headers */,
+				9B8FEC707269B27CA0CD40A36B647186 /* GFCircleQuery.h in Headers */,
+				7440C9B87F0A2B9ADA528240D4EC2B69 /* GFGeoHash.h in Headers */,
+				5B1DEC12EEB3CEAB8C2602E04007DD12 /* GFGeoHashQuery.h in Headers */,
+				CA5D63EFDBD5B43AC4BE3CC2D3DF2186 /* GFQuery+Private.h in Headers */,
+				FB96A79AA75E84306AE7C36318712D0D /* GFQuery.h in Headers */,
+				FEB3E1C8892B8A55BDBECEA29187DCAE /* GFRegionQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7908849B370564D3342427B24CCD92B7 /* GeoFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED06398B681E114325F3F3C31F1B696F /* Build configuration list for PBXNativeTarget "GeoFire" */;
+			buildPhases = (
+				16F67A0947C02901EC58F17F693A809C /* Sources */,
+				0C3A74E26847CE2D0A1332DA924AD3C8 /* Frameworks */,
+				94330F83ED3F2178C3E743C52713B2A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoFire;
+			productName = GeoFire;
+			productReference = 8325AC7FABBFA10F2D23848C644E3F4F /* GeoFire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBECD7D5DA16CD7641EC4C38811A50D7 /* Pods-PokeHeatMap For Pokemon Go */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9A46FDBAD6C7445FD122635D5E9FF63 /* Build configuration list for PBXNativeTarget "Pods-PokeHeatMap For Pokemon Go" */;
+			buildPhases = (
+				7D3C5F54A02A2E6D25E21A6EDFDBBBC2 /* Sources */,
+				CF9D31F5EF699BE5338DC77E949B1222 /* Frameworks */,
+				2521E70A0AFE42E3D8B3CB214DDAA388 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2D9236A8236F7DD88FA5B162131C682 /* PBXTargetDependency */,
+			);
+			name = "Pods-PokeHeatMap For Pokemon Go";
+			productName = "Pods-PokeHeatMap For Pokemon Go";
+			productReference = 192249FD8FE6DCF324C41CAC4CB01FF7 /* Pods_PokeHeatMap_For_Pokemon_Go.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B25E25E44496283ABEDEFC9F544193E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7908849B370564D3342427B24CCD92B7 /* GeoFire */,
+				FBECD7D5DA16CD7641EC4C38811A50D7 /* Pods-PokeHeatMap For Pokemon Go */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16F67A0947C02901EC58F17F693A809C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A21FF462006E707E56C3B3971893BD8 /* GeoFire-dummy.m in Sources */,
+				E772F9F57312C064C87C25657F3C3A6A /* GeoFire.m in Sources */,
+				EC4A2955A3BAAF97E097272642BDE9B9 /* GFBase32Utils.m in Sources */,
+				746B890F1CECD5326ADD05028FC0FC5C /* GFGeoHash.m in Sources */,
+				75F28DB38113DCB2D9121B7163C875CA /* GFGeoHashQuery.m in Sources */,
+				2ABCD61FD7F427BD3806C92902AB042E /* GFQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D3C5F54A02A2E6D25E21A6EDFDBBBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C53D3B7693F300FDA6103C154A0ECD /* Pods-PokeHeatMap For Pokemon Go-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2D9236A8236F7DD88FA5B162131C682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GeoFire;
+			target = 7908849B370564D3342427B24CCD92B7 /* GeoFire */;
+			targetProxy = FE69F2257731BBD585EFA3AF820721B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1AEEEBDF37C6EEB254D93FB118B71A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 481D45D81A6314BA3A266AAA4A0F33AB /* Pods-PokeHeatMap For Pokemon Go.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PokeHeatMap For Pokemon Go/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokeHeatMap For Pokemon Go/Pods-PokeHeatMap For Pokemon Go.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PokeHeatMap_For_Pokemon_Go;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C6B90D1ECA27A79327DA6896560A4B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7AA930A3856873DD5D2D5C649D0F83 /* GeoFire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FirebaseAnalytics/Frameworks/frameworks",
+					"$(PROJECT_DIR)/FirebaseDatabase/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GeoFire/GeoFire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GeoFire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GeoFire/GeoFire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GeoFire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E038053FA7D94339D66B976E0D479887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7AA930A3856873DD5D2D5C649D0F83 /* GeoFire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FirebaseAnalytics/Frameworks/frameworks",
+					"$(PROJECT_DIR)/FirebaseDatabase/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GeoFire/GeoFire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GeoFire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GeoFire/GeoFire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GeoFire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD2048BF42B69D1EFF3CBB5F3AB26AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D15543AB1265E719F8D1AD02E5A0837 /* Pods-PokeHeatMap For Pokemon Go.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PokeHeatMap For Pokemon Go/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokeHeatMap For Pokemon Go/Pods-PokeHeatMap For Pokemon Go.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PokeHeatMap_For_Pokemon_Go;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9A46FDBAD6C7445FD122635D5E9FF63 /* Build configuration list for PBXNativeTarget "Pods-PokeHeatMap For Pokemon Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2048BF42B69D1EFF3CBB5F3AB26AB6 /* Debug */,
+				1AEEEBDF37C6EEB254D93FB118B71A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED06398B681E114325F3F3C31F1B696F /* Build configuration list for PBXNativeTarget "GeoFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6B90D1ECA27A79327DA6896560A4B8 /* Debug */,
+				E038053FA7D94339D66B976E0D479887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
